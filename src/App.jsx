@@ -1,23 +1,16 @@
 // JS imports
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+// import { Route, Link } from "react-router-dom";
 
 // SCSS imports
 import "./App.scss";
 
 const App = () => (
   <div className="App">
-    <div className="container">
-      <div className="row">
-        <div className="col-12">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit dolores illo minus accusantium repellendus, fugiat,
-            alias optio accusamus voluptatem doloremque porro, pariatur quod!
-            Optio nihil cupiditate recusandae harum totam atque?
-          </p>
-        </div>
-      </div>
-    </div>
+    <Router>
+      <div>This is being rendered by the react-router.</div>
+    </Router>
   </div>
 );
 
