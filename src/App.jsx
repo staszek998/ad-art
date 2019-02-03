@@ -1,23 +1,39 @@
 // JS imports
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 // SCSS imports
 import "./App.scss";
 
+const Home = () => <div>Home</div>;
+
+const About = () => <div>About</div>;
+
+const Topics = () => <div>Topics</div>;
+
 const App = () => (
   <div className="App">
-    <div className="container">
-      <div className="row">
-        <div className="col-12">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit dolores illo minus accusantium repellendus, fugiat,
-            alias optio accusamus voluptatem doloremque porro, pariatur quod!
-            Optio nihil cupiditate recusandae harum totam atque?
-          </p>
-        </div>
+    <Router>
+      <div>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/topics">Topics</Link>
+          </li>
+        </ul>
+
+        <hr />
+
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/topics" component={Topics} />
       </div>
-    </div>
+    </Router>
   </div>
 );
 
