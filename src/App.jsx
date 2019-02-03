@@ -1,7 +1,7 @@
 // JS imports
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Route, Link } from "react-router-dom";
+// import { Route, Link } from "react-router-dom";
 
 // SCSS imports
 import "./App.scss";
