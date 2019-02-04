@@ -1,3 +1,7 @@
+@charset "UTF-8";
+
+@import "../utilities/all";
+
 body,
 #root,
 .App,
@@ -9,4 +13,8 @@ body,
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: min-content auto min-content;
+}
+
+body {
+    background-color: $ad-white;
 }
