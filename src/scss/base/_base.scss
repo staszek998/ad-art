@@ -17,5 +17,6 @@ body,
 
 body {
     background-color: $ad-white;
+    color: $ad-rich-black;
     @include ad-font--regular;
 }
