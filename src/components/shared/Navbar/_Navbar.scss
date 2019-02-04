@@ -28,4 +28,15 @@
             color: $ad-red;
         }
     }
+
+    .hamburger,
+    .hamburger-is-active {
+        .hamburger-inner {
+            &,
+            &::before,
+            &::after {
+                background-color: $ad-rich-black;
+            }
+        }
+    }
 }

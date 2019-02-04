@@ -11,15 +11,20 @@ const Navbar = () => (
 
             {/* Dropdown toggle button */}
             <button
-                className="navbar-toggler"
+                className="hamburger hamburger--spin-r navbar-toggler"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbar-collapse"
                 aria-controls="navbar-collapse"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                onClick={event => {
+                    event.currentTarget.classList.toggle("is-active");
+                }}
             >
-                <span className="navbar-toggler-icon" />
+                <span class="hamburger-box">
+                    <span class="hamburger-inner" />
+                </span>
             </button>
 
             {/* Navbar links */}
