@@ -17,5 +17,5 @@ body,
 
 body {
     background-color: $ad-white;
-    font-family: "Titillium Web";
+    @include ad-font--regular;
 }
