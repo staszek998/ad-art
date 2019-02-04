@@ -5,7 +5,7 @@ const Footer = () => (
         <div className="container">
             <div className="row">
                 <div className="col-12 text-center">
-                    AD-art 2019 &copy; Wszelkie prawa zastrzeżone
+                    Copyright &copy; AD-art 2019
                 </div>
             </div>
         </div>
