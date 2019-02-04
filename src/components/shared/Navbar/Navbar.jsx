@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./_Navbar.scss";
 
 const Navbar = () => (
-    <nav class="Navbar navbar navbar-expand-md">
+    <nav class="Navbar navbar navbar-expand-sm">
         <div className="container">
             {/* Company name */}
             <NavLink to="/">AD-art</NavLink>
@@ -25,9 +25,6 @@ const Navbar = () => (
             {/* Navbar links */}
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <NavLink to="/o-nas">O NAS</NavLink>
-                    </li>
                     <li className="nav-item">
                         <NavLink to="/o-nas">O NAS</NavLink>
                     </li>
