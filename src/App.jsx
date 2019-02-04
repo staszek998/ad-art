@@ -1,7 +1,6 @@
 // JS imports
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import {  Link } from "react-router-dom";
 
 // SCSS imports
 import "./App.scss";
@@ -17,16 +16,18 @@ import Contact from "./pages/Contact/Contact";
 
 const App = () => (
     <div className="App">
-        <Navbar />
         <Router>
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/o-nas" component={About} />
-                <Route path="/realizacje" component={Executions} />
-                <Route path="/projekty" component={Projects} />
-                <Route path="/oferta" component={Offer} />
-                <Route path="/kontakt" component={Contact} />
-            </Switch>
+            <div>
+                <Navbar />
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/o-nas" component={About} />
+                    <Route path="/realizacje" component={Executions} />
+                    <Route path="/projekty" component={Projects} />
+                    <Route path="/oferta" component={Offer} />
+                    <Route path="/kontakt" component={Contact} />
+                </Switch>
+            </div>
         </Router>
     </div>
 );

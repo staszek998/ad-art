@@ -1,30 +1,18 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => (
     <header class="Navbar">
         <div className="container">
             <div className="row">
                 <div className="col-12 d-flex justify-content-between align-items-center">
-                    <h2>AD-art</h2>
+                    <NavLink to="/">AD-art</NavLink>
                     <nav class="d-flex justify-content-center align-items-between">
-                        <a class="nav-link" href="#">
-                            O NAS
-                        </a>
-                        <a class="nav-link" href="#">
-                            REALIZACJE
-                        </a>
-                        <a class="nav-link" href="#">
-                            PROJEKTY
-                        </a>
-                        <a class="nav-link" href="#">
-                            PROJEKTY
-                        </a>
-                        <a class="nav-link" href="#">
-                            OFERTA
-                        </a>
-                        <a class="nav-link" href="#">
-                            KONTAKT
-                        </a>
+                        <NavLink to="/o-nas">O NAS</NavLink>
+                        <NavLink to="/realizacje">REALIZACJE</NavLink>
+                        <NavLink to="/projekty">PROJEKTY</NavLink>
+                        <NavLink to="/oferta">OFERTA</NavLink>
+                        <NavLink to="/kontakt">KONTAKT</NavLink>
                     </nav>
                 </div>
             </div>
