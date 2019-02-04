@@ -5,13 +5,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 // SCSS imports
 import "./App.scss";
+import Navbar from "./components/shared/Navbar/Navbar";
 
 const App = () => (
-  <div className="App">
-    <Router>
-      <div>This is being rendered by the react-router.</div>
-    </Router>
-  </div>
+    <div className="App">
+        <Navbar />
+        <Router>
+            <div>This is being rendered by the react-router.</div>
+        </Router>
+    </div>
 );
 
 export default App;
