@@ -6,7 +6,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.scss";
 
 // Components
+// Shared
 import Navbar from "./components/shared/Navbar/Navbar";
+import Footer from "./components/shared/Footer/Footer";
+// Pages
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Executions from "./pages/Executions/Executions";
@@ -27,6 +30,7 @@ const App = () => (
                     <Route path="/oferta" component={Offer} />
                     <Route path="/kontakt" component={Contact} />
                 </Switch>
+                <Footer />
             </div>
         </Router>
     </div>
