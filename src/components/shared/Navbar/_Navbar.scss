@@ -29,14 +29,8 @@
         }
     }
 
-    .hamburger,
-    .hamburger-is-active {
-        .hamburger-inner {
-            &,
-            &::before,
-            &::after {
-                background-color: $ad-rich-black;
-            }
-        }
+    // Set the proper styling for the brand name
+    .brand-name {
+        font-size: 2em;
     }
 }
