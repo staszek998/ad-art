@@ -3,6 +3,12 @@
 @import "../../../scss/utilities/all";
 
 .Navbar {
+    // Remove the Bootstrap's default styles for the links
+    a {
+        color: $ad-rich-black;
+        text-decoration: none;
+    }
+
     .nav-item {
         // Apply margins between the .nav-items
         @include media-breakpoint-up(sm) {
@@ -16,10 +22,10 @@
         @include media-breakpoint-up(lg) {
             margin-left: 30px;
         }
-    }
 
-    // Remove the Bootstrap's default blue colour for the links
-    a {
-        color: $ad-rich-black;
+        // Set the different colour for the active .nav-item to indicate the active page
+        a.active {
+            color: $ad-red;
+        }
     }
 }
