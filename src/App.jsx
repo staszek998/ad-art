@@ -1,7 +1,6 @@
 // JS imports
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import { Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import {  Link } from "react-router-dom";
 
 // SCSS imports
@@ -20,14 +19,14 @@ const App = () => (
     <div className="App">
         <Navbar />
         <Router>
-            <div>
+            <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/o-nas" component={About} />
                 <Route path="/realizacje" component={Executions} />
                 <Route path="/projekty" component={Projects} />
                 <Route path="/oferta" component={Offer} />
                 <Route path="/kontakt" component={Contact} />
-            </div>
+            </Switch>
         </Router>
     </div>
 );
