@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import "./_Navbar.scss";
+
 const Navbar = () => (
     <nav class="Navbar navbar navbar-expand-md">
         <div className="container">

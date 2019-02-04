@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import "../../../scss/utilities/all";
+
+.Navbar {
+    .nav-item {
+        @include media-breakpoint-up(sm) {
+            margin: 0 10px;
+            &:first-child {
+                margin-left: 20px;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
