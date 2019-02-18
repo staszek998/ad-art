@@ -39,21 +39,6 @@
       }
     }
 
-    // Create the vertical line (spacer) on larger screens.
-    @include media-breakpoint-up(md) {
-      position: relative;
-      &::before {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        content: "";
-        width: 1px;
-        height: 100%;
-        background-color: $ad-rich-black;
-      }
-    }
-
     // Set the equal width to both of the links
     // to achieve more centered layout.
     a {
