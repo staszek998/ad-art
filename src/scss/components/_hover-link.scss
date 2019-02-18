@@ -33,7 +33,8 @@
     }
 
     &:hover,
-    &:focus {
+    &:focus,
+    &.active {
       outline: none;
 
       &::before,
