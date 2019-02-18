@@ -28,10 +28,14 @@
     // Add space between the main heading.
     margin-top: 50px;
 
-    // Add space in between on larger screens.
-    @include media-breakpoint-up(md) {
-      a:first-child {
-        margin-right: 50px;
+    // Add space:
+    a:first-child {
+      // on bottom on small screens
+      margin: 0 0 10px 0;
+
+      // on right side on large screens
+      @include media-breakpoint-up(md) {
+        margin: 0 50px 0 0;
       }
     }
 
