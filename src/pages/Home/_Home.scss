@@ -17,30 +17,37 @@
   .links {
     // Center the links.
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
 
     // Add space between the main heading.
     margin-top: 50px;
 
-    // Add space in between.
-    a:first-child {
-      margin-right: 50px;
+    // Add space in between on larger screens.
+    @include media-breakpoint-up(md) {
+      a:first-child {
+        margin-right: 50px;
+      }
     }
 
-    // Create the vertical line (spacer).
-    position: relative;
-    &::before {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      content: "";
-      width: 1px;
-      height: 100%;
-      background-color: $ad-rich-black;
+    // Create the vertical line (spacer) on larger screens.
+    @include media-breakpoint-up(md) {
+      position: relative;
+      &::before {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        content: "";
+        width: 1px;
+        height: 100%;
+        background-color: $ad-rich-black;
+      }
     }
 
     // Set the equal width to both of the links
