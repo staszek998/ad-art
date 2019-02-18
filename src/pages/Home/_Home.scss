@@ -7,9 +7,19 @@
 ////
 
 .Home {
+  // Center the content.
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+
+  .links {
+    // Center the links.
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
 }
