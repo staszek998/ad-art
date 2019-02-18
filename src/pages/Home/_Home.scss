@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+////
+/// This file contains the styles for the main document of the AD-art page - homepage.
+////
+
+@import "../../scss/utilities/all";
+
+.Home {
+  // Center the content.
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  .links {
+    // Center the links.
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
+
+    // Set the equal width to both of the links
+    // to achieve more centered layout.
+    a {
+      width: 200px;
+      text-align: center;
+    }
+
+    // Add space between the main heading.
+    margin-top: 50px;
+
+    // Add space between the buttons:
+    a:first-child {
+      // ...horizontal on small screens
+      margin: 0 0 10px 0;
+
+      // ...vertical on large screens
+      @include media-breakpoint-up(md) {
+        margin: 0 50px 0 0;
+      }
+    }
+  }
+}
