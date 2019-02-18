@@ -7,8 +7,8 @@ import "./App.scss";
 
 // Components
 // Shared
-import Navbar from "./components/shared/Navbar/Navbar";
-import Footer from "./components/shared/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 // Pages
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
