@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./_Home.scss";
 
@@ -11,8 +11,12 @@ const Home = () => (
 
     {/* Links */}
     <div className="links">
-      <NavLink to="/relizacje">Zobacz nasze realizacje</NavLink>
-      <NavLink to="/kontakt">Skontaktuj się z nami</NavLink>
+      <Link to="/relizacje" className="art-button">
+        Zobacz nasze realizacje
+      </Link>
+      <Link to="/kontakt" className="art-button">
+        Skontaktuj się z nami
+      </Link>
     </div>
   </main>
 );

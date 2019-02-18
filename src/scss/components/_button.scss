@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+////
+/// This file contains the styles for the custom AD-art button.
+////
+
+@import "../utilities/all";
+
+.art-button {
+  display: block;
+  border: 1px solid $ad-rich-black;
+  background: transparent;
+  color: $ad-rich-black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 200ms ease;
+
+  &:hover {
+    background: $ad-rich-black;
+    color: $ad-white;
+    text-decoration: none;
+  }
+
+  &.white {
+    border-color: $ad-white;
+    color: $ad-white;
+
+    &:hover {
+      background: $ad-white;
+      color: $ad-rich-black;
+    }
+  }
+}
