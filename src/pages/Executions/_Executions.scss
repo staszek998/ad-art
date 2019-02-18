@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+////
+/// This file contains the styles for the AD-art "Realizacje" (Executions) page.
+////
+
+@import "../../scss/utilities/all";
+
+.Executions {
+    // Center the content.
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  padding: 50px 0;
+  @include media-breakpoint-up(md) {
+    padding: 100px 0;
+  }
+}
