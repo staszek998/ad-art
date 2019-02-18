@@ -26,5 +26,18 @@
     a:first-child {
       margin-right: 50px;
     }
+
+    // Create the vertical line (spacer).
+    position: relative;
+    &::before {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      content: "";
+      width: 1px;
+      height: 100%;
+      background-color: black;
+    }
   }
 }
