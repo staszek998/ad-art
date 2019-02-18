@@ -18,22 +18,22 @@ import Offer from "./pages/Offer/Offer";
 import Contact from "./pages/Contact/Contact";
 
 const App = () => (
-    <div className="App">
-        <Router>
-            <div>
-                <Navbar />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/o-nas" component={About} />
-                    <Route path="/realizacje" component={Executions} />
-                    <Route path="/projekty" component={Projects} />
-                    <Route path="/oferta" component={Offer} />
-                    <Route path="/kontakt" component={Contact} />
-                </Switch>
-                <Footer />
-            </div>
-        </Router>
-    </div>
+  <div className="App">
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/o-nas" component={About} />
+          <Route exact path="/realizacje" component={Executions} />
+          <Route exact path="/projekty" component={Projects} />
+          <Route path="/oferta" component={Offer} />
+          <Route path="/kontakt" component={Contact} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+  </div>
 );
 
 export default App;
