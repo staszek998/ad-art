@@ -6,6 +6,8 @@
 /// Table of contents:
 ////
 
+@import "../../scss/utilities/all";
+
 .Home {
   // Center the content.
   display: flex;
@@ -37,7 +39,7 @@
       content: "";
       width: 1px;
       height: 100%;
-      background-color: black;
+      background-color: $ad-rich-black;
     }
 
     // Set the equal width to both of the links
