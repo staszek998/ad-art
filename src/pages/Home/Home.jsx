@@ -11,7 +11,7 @@ const Home = () => (
 
     {/* Links */}
     <div className="links">
-      <Link to="/relizacje" className="art-button">
+      <Link to="/realizacje" className="art-button">
         Zobacz nasze realizacje
       </Link>
       <Link to="/kontakt" className="art-button">
