@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+////
+/// This file contains the styles for the main document of the AD-art page - homepage.
+///
+/// Table of contents:
+////
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
