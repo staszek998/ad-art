@@ -12,12 +12,48 @@ const Executions = () => (
           <h1 className="display-1 mb-5 text-center">Realizacje</h1>
 
           {/* Cards */}
-          <Thumbnail
-            imgSrc="https://dummyimage.com/600x400/000/fff"
-            title="Some title"
-            subtitle="Some subtitle"
-            href="/realizacje/dom"
-          />
+          <div className="grid-container">
+            <div className="grid-item--top-left">
+              <Thumbnail
+                imgSrc="https://dummyimage.com/600x400/000/fff"
+                title="Some title"
+                subtitle="Some subtitle"
+                href="/realizacje/dom"
+              />
+            </div>
+            <div className="grid-item--bottom-left">
+              <Thumbnail
+                imgSrc="https://dummyimage.com/600x400/000/fff"
+                title="Some title"
+                subtitle="Some subtitle"
+                href="/realizacje/dom"
+              />
+            </div>
+            <div className="grid-item--center">
+              <Thumbnail
+                imgSrc="https://dummyimage.com/600x400/000/fff"
+                title="Some title"
+                subtitle="Some subtitle"
+                href="/realizacje/dom"
+              />
+            </div>
+            <div className="grid-item--top-right">
+              <Thumbnail
+                imgSrc="https://dummyimage.com/600x400/000/fff"
+                title="Some title"
+                subtitle="Some subtitle"
+                href="/realizacje/dom"
+              />
+            </div>
+            <div className="grid-item--bottom-right">
+              <Thumbnail
+                imgSrc="https://dummyimage.com/600x400/000/fff"
+                title="Some title"
+                subtitle="Some subtitle"
+                href="/realizacje/dom"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
