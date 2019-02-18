@@ -25,25 +25,25 @@
       flex-direction: row;
     }
 
-    // Add space between the main heading.
-    margin-top: 50px;
-
-    // Add space:
-    a:first-child {
-      // on bottom on small screens
-      margin: 0 0 10px 0;
-
-      // on right side on large screens
-      @include media-breakpoint-up(md) {
-        margin: 0 50px 0 0;
-      }
-    }
-
     // Set the equal width to both of the links
     // to achieve more centered layout.
     a {
       width: 200px;
       text-align: center;
+    }
+
+    // Add space between the main heading.
+    margin-top: 50px;
+
+    // Add space between the buttons:
+    a:first-child {
+      // ...horizontal on small screens
+      margin: 0 0 10px 0;
+
+      // ...vertical on large screens
+      @include media-breakpoint-up(md) {
+        margin: 0 50px 0 0;
+      }
     }
   }
 }
