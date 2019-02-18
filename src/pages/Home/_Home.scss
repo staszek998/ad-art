@@ -39,5 +39,12 @@
       height: 100%;
       background-color: black;
     }
+
+    // Set the equal width to both of the links
+    // to achieve more centered layout.
+    a {
+      width: 200px;
+      text-align: center;
+    }
   }
 }
