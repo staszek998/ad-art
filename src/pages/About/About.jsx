@@ -1,12 +1,14 @@
 import React from "react";
 
+import "./_About.scss";
+
 const About = () => (
   <main className="About">
     <div className="container">
       <div className="row">
-        <div className="col-12">
+        <div className="col-12 text-center">
           {/* Heading */}
-          <h1 className="display-1 text-center">O nas</h1>
+          <h1 className="display-1 mb-5">O nas</h1>
 
           {/* Copy text */}
           <p>
