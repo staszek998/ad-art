@@ -7,38 +7,40 @@
 @import "../utilities/all";
 
 .art-link-hover {
-  position: relative;
-  display: inline-block;
-  outline: none;
-  text-decoration: none;
-
-  &::before,
-  &::after {
+  @include media-breakpoint-up(md) {
+    position: relative;
     display: inline-block;
-    opacity: 0;
-    transition: transform 0.3s, opacity 0.2s;
-  }
-
-  &::before {
-    margin-right: 10px;
-    content: "[";
-    transform: translateX(20px);
-  }
-
-  &::after {
-    margin-left: 10px;
-    content: "]";
-    transform: translateX(-20px);
-  }
-
-  &:hover,
-  &:focus {
     outline: none;
+    text-decoration: none;
 
     &::before,
     &::after {
-      opacity: 1;
-      transform: translateX(0px);
+      display: inline-block;
+      opacity: 0;
+      transition: transform 0.3s, opacity 0.2s;
+    }
+
+    &::before {
+      margin-right: 10px;
+      content: "[";
+      transform: translateX(20px);
+    }
+
+    &::after {
+      margin-left: 10px;
+      content: "]";
+      transform: translateX(-20px);
+    }
+
+    &:hover,
+    &:focus {
+      outline: none;
+
+      &::before,
+      &::after {
+        opacity: 1;
+        transform: translateX(0px);
+      }
     }
   }
 }
