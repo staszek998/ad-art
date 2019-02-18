@@ -22,6 +22,9 @@
     align-items: center;
     flex-wrap: nowrap;
 
+    // Add space between the main heading.
+    margin-top: 50px;
+
     // Add space in between.
     a:first-child {
       margin-right: 50px;
