@@ -16,6 +16,7 @@ import Executions from "./pages/Executions/Executions";
 import Projects from "./pages/Projects/Projects";
 import Offer from "./pages/Offer/Offer";
 import Contact from "./pages/Contact/Contact";
+import Execution from "./components/Execution/Execution";
 
 const App = () => (
   <div className="App">
@@ -29,6 +30,8 @@ const App = () => (
           <Route exact path="/projekty" component={Projects} />
           <Route path="/oferta" component={Offer} />
           <Route path="/kontakt" component={Contact} />
+
+          <Route path="/realizacje/dom" component={Execution} />
         </Switch>
         <Footer />
       </div>
