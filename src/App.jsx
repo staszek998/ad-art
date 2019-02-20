@@ -18,6 +18,9 @@ import Offer from "./pages/Offer/Offer";
 import Contact from "./pages/Contact/Contact";
 import Execution from "./components/Execution/Execution";
 
+// Temporary example execution
+import exampleExecution from "./db/example-execution";
+
 const App = () => (
   <div className="App">
     <Router>
@@ -31,7 +34,17 @@ const App = () => (
           <Route path="/oferta" component={Offer} />
           <Route path="/kontakt" component={Contact} />
 
-          <Route path="/realizacje/dom" component={Execution} />
+          <Route
+            exact
+            path="/realizacje/dom"
+            render={props => (
+              <Execution
+                {...props}
+                title={exampleExecution.title}
+                photos={exampleExecution.photos}
+              />
+            )}
+          />
         </Switch>
         <Footer />
       </div>
