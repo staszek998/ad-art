@@ -100,7 +100,7 @@
     }
   }
 
-  .lb-overlay {
+  .lb-overlay:target {
     padding: 100px 10px 0 10px;
     @include media-breakpoint-up(lg) {
       padding: 100px 200px 0 200px;
