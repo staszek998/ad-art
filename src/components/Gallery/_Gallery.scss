@@ -57,4 +57,15 @@
     text-transform: uppercase;
     padding: 5px 10px;
   }
+
+  // Style the control buttons
+  .control-buttons {
+    a {
+      text-transform: uppercase;
+      width: 150px;
+      &:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
 }

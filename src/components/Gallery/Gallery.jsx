@@ -16,15 +16,15 @@ const Gallery = ({ photos }) => (
             <div className="control-buttons">
               <a
                 href={`#image-${index === 0 ? photos.length - 1 : index - 1}`}
-                className="lb-prev"
+                className="art-button"
               >
-                Poprzednie
+                &lt; Poprzednie
               </a>
               <a
                 href={`#image-${index === photos.length - 1 ? 0 : index + 1}`}
-                className="lb-next"
+                className="art-button"
               >
-                Następne
+                Następne &gt;
               </a>
             </div>
             <div className="caption">
