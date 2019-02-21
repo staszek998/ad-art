@@ -10,7 +10,6 @@ const Thumbnail = ({ imgSrc, title, subtitle, href }) => (
     <img src={imgSrc} alt="" />
     <figcaption>
       <h2>{title}</h2>
-      <p>{subtitle}</p>
       <Link to={href}>View more</Link>
     </figcaption>
   </figure>
