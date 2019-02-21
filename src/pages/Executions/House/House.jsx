@@ -3,19 +3,31 @@ import Gallery from "../../../components/Gallery/Gallery";
 
 const examplePhotos = [
   {
-    src: "https://dummyimage.com/600x400/000/fff&text=Example+photo",
-    w: 600,
-    h: 400
+    title: "Photo title",
+    description: "Photo description",
+    src: {
+      thumb: "https://dummyimage.com/600x400/000/fff&text=Thumbnail",
+      full: "https://dummyimage.com/600x400/000/fff&text=Full"
+    },
+    alt: "Photo alt text"
   },
   {
-    src: "https://dummyimage.com/400x600/000/fff&text=Example+photo",
-    w: 400,
-    h: 600
+    title: "Photo title",
+    description: "Photo description",
+    src: {
+      thumb: "https://dummyimage.com/600x400/000/fff&text=Thumbnail",
+      full: "https://dummyimage.com/600x400/000/fff&text=Full"
+    },
+    alt: "Photo alt text"
   },
   {
-    src: "https://dummyimage.com/800x200/000/fff&text=Example+photo",
-    w: 800,
-    h: 200
+    title: "Photo title",
+    description: "Photo description",
+    src: {
+      thumb: "https://dummyimage.com/600x400/000/fff&text=Thumbnail",
+      full: "https://dummyimage.com/600x400/000/fff&text=Full"
+    },
+    alt: "Photo alt text"
   }
 ];
 
