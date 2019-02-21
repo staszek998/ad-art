@@ -6,8 +6,10 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
-      full: "https://dummyimage.com/600x600/000/fff&text=Full"
+      thumb:
+        "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+      full:
+        "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
     },
     alt: "Photo alt text"
   },
@@ -15,8 +17,10 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
-      full: "https://dummyimage.com/600x600/000/fff&text=Full"
+      thumb:
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+      full:
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
     },
     alt: "Photo alt text"
   },
@@ -24,8 +28,10 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/800x200/000/fff&text=Thumb",
-      full: "https://dummyimage.com/800x200/000/fff&text=Full"
+      thumb:
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      full:
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
     },
     alt: "Photo alt text"
   },
@@ -33,8 +39,10 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
-      full: "https://dummyimage.com/600x600/000/fff&text=Full"
+      thumb:
+        "https://images.unsplash.com/photo-1542290504-2dc9a5811cd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      full:
+        "https://images.unsplash.com/photo-1542290504-2dc9a5811cd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
     },
     alt: "Photo alt text"
   },
@@ -42,8 +50,10 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
-      full: "https://dummyimage.com/600x600/000/fff&text=Full"
+      thumb:
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80",
+      full:
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80"
     },
     alt: "Photo alt text"
   },
@@ -51,8 +61,10 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
-      full: "https://dummyimage.com/600x600/000/fff&text=Full"
+      thumb:
+        "https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      full:
+        "https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     },
     alt: "Photo alt text"
   }
