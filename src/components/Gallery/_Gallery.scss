@@ -99,4 +99,18 @@
       }
     }
   }
+
+  .lb-overlay {
+    padding: 100px 10px 0 10px;
+    @include media-breakpoint-up(lg) {
+      padding: 100px 200px 0 200px;
+    }
+
+    img {
+      max-height: 40vh;
+      @include media-breakpoint-up(md) {
+        max-height: 60vh;
+      }
+    }
+  }
 }
