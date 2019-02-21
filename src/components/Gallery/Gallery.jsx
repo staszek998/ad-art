@@ -16,13 +16,13 @@ const Gallery = ({ photos }) => (
             <h3>{photo.title}</h3>
             <p>{photo.description}</p>
             <a
-              href={`#image-${index === 0 ? photos.length + 1 : index - 1}`}
+              href={`#image-${index === 0 ? photos.length - 1 : index - 1}`}
               class="lb-prev"
             >
               Poprzednie
             </a>
             <a
-              href={`#image-${index > photos.length ? 0 : index}`}
+              href={`#image-${index === photos.length - 1 ? 0 : index + 1}`}
               class="lb-next"
             >
               Następne
