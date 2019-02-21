@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./_Executions.scss";
 import Thumbnail from "../../components/Thumbnail/Thumbnail";
 
