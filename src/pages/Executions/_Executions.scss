@@ -23,17 +23,33 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 200px);
-    @include media-breakpoint-up(md) {
-      grid-template-rows: 200px 400px 200px;
-    }
+    grid-auto-rows: auto;
     @include media-breakpoint-up(lg) {
       grid-template-columns: [main-start left-start] 1fr [left-end center-start] 2fr [center-end right-start] 1fr [right-end main-end];
-      grid-template-rows: [main-start top-start] 200px [top-end bottom-start] 200px [bottom-end main-end];
+      grid-template-rows: [main-start top-start] auto [top-end bottom-start] auto [bottom-end main-end];
     }
     grid-gap: 20px;
 
     .grid-item {
+      position: relative;
+
+      &::before {
+        position: relative;
+        padding-top: 100%;
+        content: "";
+        height: 0;
+        display: inline-block;
+        width: 1px;
+      }
+
+      .Thumbnail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 100%;
+      }
+
       &--top-left {
         grid-column: 1;
         grid-row: 1;
