@@ -67,6 +67,17 @@ const examplePhotos = [
         "https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     },
     alt: "Photo alt text"
+  },
+  {
+    title: "Photo title",
+    description: "Photo description",
+    src: {
+      thumb:
+        "https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+      full:
+        "https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+    },
+    alt: "Photo alt text"
   }
 ];
 
