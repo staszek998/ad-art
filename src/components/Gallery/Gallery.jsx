@@ -6,6 +6,7 @@ import "./_Gallery.scss";
 
 class Gallery extends Component {
   state = {};
+
   render() {
     return (
       <section
@@ -78,6 +79,37 @@ class Gallery extends Component {
       </section>
     );
   }
+
+  componentDidMount = () => {
+    const pswpElement = document.querySelector(".pswp");
+
+    // build items array
+    const items = this.props.photos.map(photo => {
+      const { src, w, h } = photo;
+
+      return {
+        src,
+        w,
+        h
+      };
+    });
+
+    // define options (if needed)
+    const options = {
+      // optionName: 'option value'
+      // for example:
+      index: 0 // start at first slide
+    };
+
+    // Initializes and opens PhotoSwipe
+    const gallery = new PhotoSwipe(
+      pswpElement,
+      PhotoSwipeUI_Default,
+      items,
+      options
+    );
+    gallery.init();
+  };
 }
 
 export default Gallery;
