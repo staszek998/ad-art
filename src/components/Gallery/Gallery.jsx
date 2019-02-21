@@ -8,7 +8,6 @@ const Gallery = ({ photos }) => (
       <li key={`image-${index}`}>
         <a href={`#image-${index}`}>
           <img src={photo.src.thumb} alt={photo.alt} />
-          <span>{photo.title}</span>
         </a>
         <div className="lb-overlay" id={`image-${index}`}>
           <img src={photo.src.full} alt={photo.alt} />
