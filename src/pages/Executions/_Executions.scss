@@ -22,34 +22,58 @@
   // Create the CSS Grid layout.
   .grid-container {
     display: grid;
-    grid-template-columns: [main-start left-start] 1fr [left-end center-start] 2fr [center-end right-start] 1fr [right-end main-end];
-    grid-template-rows: [main-start top-start] 200px [top-end bottom-start] 200px [bottom-end main-end];
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    @include media-breakpoint-up(md) {
+      grid-template-columns: [main-start left-start] 1fr [left-end center-start] 2fr [center-end right-start] 1fr [right-end main-end];
+      grid-template-rows: [main-start top-start] 200px [top-end bottom-start] 200px [bottom-end main-end];
+    }
     grid-gap: 20px;
 
     .grid-item {
       &--top-left {
-        grid-column: left;
-        grid-row: top;
+        grid-column: 1;
+        grid-row: 1;
+        @include media-breakpoint-up(md) {
+          grid-column: left;
+          grid-row: top;
+        }
       }
 
       &--top-right {
-        grid-column: right;
-        grid-row: top;
+        grid-column: 2;
+        grid-row: 1;
+        @include media-breakpoint-up(md) {
+          grid-column: right;
+          grid-row: top;
+        }
       }
 
       &--bottom-left {
-        grid-column: left;
-        grid-row: bottom;
+        grid-column: 1;
+        grid-row: 3;
+        @include media-breakpoint-up(md) {
+          grid-column: left;
+          grid-row: bottom;
+        }
       }
 
       &--bottom-right {
-        grid-column: right;
-        grid-row: bottom;
+        grid-column: 2;
+        grid-row: 3;
+        @include media-breakpoint-up(md) {
+          grid-column: right;
+          grid-row: bottom;
+        }
       }
 
       &--center {
-        grid-column: center;
-        grid-row: main;
+        grid-column: 1 / -1;
+        grid-row: 2;
+        @include media-breakpoint-up(md) {
+          grid-column: center;
+          grid-row: main;
+        }
       }
     }
   }
