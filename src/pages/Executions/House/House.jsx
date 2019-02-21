@@ -6,8 +6,8 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x400/000/fff&text=Thumbnail",
-      full: "https://dummyimage.com/600x400/000/fff&text=Full"
+      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
+      full: "https://dummyimage.com/600x600/000/fff&text=Full"
     },
     alt: "Photo alt text"
   },
@@ -15,8 +15,8 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x400/000/fff&text=Thumbnail",
-      full: "https://dummyimage.com/600x400/000/fff&text=Full"
+      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
+      full: "https://dummyimage.com/600x600/000/fff&text=Full"
     },
     alt: "Photo alt text"
   },
@@ -24,8 +24,35 @@ const examplePhotos = [
     title: "Photo title",
     description: "Photo description",
     src: {
-      thumb: "https://dummyimage.com/600x400/000/fff&text=Thumbnail",
-      full: "https://dummyimage.com/600x400/000/fff&text=Full"
+      thumb: "https://dummyimage.com/800x200/000/fff&text=Thumb",
+      full: "https://dummyimage.com/800x200/000/fff&text=Full"
+    },
+    alt: "Photo alt text"
+  },
+  {
+    title: "Photo title",
+    description: "Photo description",
+    src: {
+      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
+      full: "https://dummyimage.com/600x600/000/fff&text=Full"
+    },
+    alt: "Photo alt text"
+  },
+  {
+    title: "Photo title",
+    description: "Photo description",
+    src: {
+      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
+      full: "https://dummyimage.com/600x600/000/fff&text=Full"
+    },
+    alt: "Photo alt text"
+  },
+  {
+    title: "Photo title",
+    description: "Photo description",
+    src: {
+      thumb: "https://dummyimage.com/600x600/000/fff&text=Thumb",
+      full: "https://dummyimage.com/600x600/000/fff&text=Full"
     },
     alt: "Photo alt text"
   }
