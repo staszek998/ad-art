@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import PhotoSwipe from "photoswipe";
 
+import "./_PhotoSwipe.scss";
+
 class PhotoSwipe extends Component {
   state = {};
   render() {
