@@ -13,23 +13,27 @@ const Gallery = ({ photos }) => (
         <div className="lb-overlay" id={`image-${index}`}>
           <img src={photo.src.full} alt={photo.alt} />
           <div>
-            <h3>{photo.title}</h3>
-            <p>{photo.description}</p>
-            <a
-              href={`#image-${index === 0 ? photos.length - 1 : index - 1}`}
-              className="lb-prev"
-            >
-              Poprzednie
-            </a>
-            <a
-              href={`#image-${index === photos.length - 1 ? 0 : index + 1}`}
-              className="lb-next"
-            >
-              Następne
-            </a>
+            <div className="control-buttons">
+              <a
+                href={`#image-${index === 0 ? photos.length - 1 : index - 1}`}
+                className="lb-prev"
+              >
+                Poprzednie
+              </a>
+              <a
+                href={`#image-${index === photos.length - 1 ? 0 : index + 1}`}
+                className="lb-next"
+              >
+                Następne
+              </a>
+            </div>
+            <div className="caption">
+              <h3>{photo.title}</h3>
+              <p>{photo.description}</p>
+            </div>
           </div>
-          <a href="#page" className="lb-close">
-            x Zamknij
+          <a href="#page" className="lb-close art-button">
+            Zamknij
           </a>
         </div>
       </li>
