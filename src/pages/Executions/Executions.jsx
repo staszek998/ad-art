@@ -9,7 +9,7 @@ const Executions = () => (
       <div className="row">
         <div className="col-12">
           {/* Heading */}
-          <h1 className="display-2 display-md-1 mb-5 text-center">
+          <h1 className="display-3 display-md-1 mb-5 text-center">
             Realizacje
           </h1>
 
