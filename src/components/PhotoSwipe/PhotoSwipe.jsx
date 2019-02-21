@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PhotoSwipe from "photoswipe";
 
 class PhotoSwipe extends Component {
   state = {};
