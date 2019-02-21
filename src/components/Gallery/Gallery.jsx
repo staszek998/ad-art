@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import PhotoSwipe from "photoswipe";
+import PhotoSwipe from "photoswipe/dist/photoswipe";
+import PhotoSwipeUI_Default from "photoswipe/dist/photoswipe-ui-default";
 
-import "./_PhotoSwipe.scss";
+import "./_Gallery.scss";
 
-class PhotoSwipe extends Component {
+class Gallery extends Component {
   state = {};
   render() {
     return (
       <section
-        className="PhotoSwipe pswp"
+        className="Gallery pswp"
         tabindex="-1"
         role="dialog"
         aria-hidden="true"
@@ -79,4 +80,4 @@ class PhotoSwipe extends Component {
   }
 }
 
-export default PhotoSwipe;
+export default Gallery;
