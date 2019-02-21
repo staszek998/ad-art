@@ -15,7 +15,7 @@
   flex-wrap: nowrap;
 
   padding: 50px 0;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     padding: 100px 0;
   }
 
@@ -25,6 +25,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 200px);
     @include media-breakpoint-up(md) {
+      grid-template-rows: 200px 400px 200px;
+    }
+    @include media-breakpoint-up(lg) {
       grid-template-columns: [main-start left-start] 1fr [left-end center-start] 2fr [center-end right-start] 1fr [right-end main-end];
       grid-template-rows: [main-start top-start] 200px [top-end bottom-start] 200px [bottom-end main-end];
     }
@@ -34,7 +37,7 @@
       &--top-left {
         grid-column: 1;
         grid-row: 1;
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
           grid-column: left;
           grid-row: top;
         }
@@ -43,7 +46,7 @@
       &--top-right {
         grid-column: 2;
         grid-row: 1;
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
           grid-column: right;
           grid-row: top;
         }
@@ -52,7 +55,7 @@
       &--bottom-left {
         grid-column: 1;
         grid-row: 3;
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
           grid-column: left;
           grid-row: bottom;
         }
@@ -61,7 +64,7 @@
       &--bottom-right {
         grid-column: 2;
         grid-row: 3;
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
           grid-column: right;
           grid-row: bottom;
         }
@@ -70,7 +73,7 @@
       &--center {
         grid-column: 1 / -1;
         grid-row: 2;
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
           grid-column: center;
           grid-row: main;
         }
