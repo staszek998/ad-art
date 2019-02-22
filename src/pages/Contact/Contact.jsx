@@ -47,7 +47,15 @@ const Contact = () => (
             </div>
 
             {/* Contact form */}
-            <div className="col-12 col-md-6 text-center">xxx</div>
+            <form className="col-12 col-md-6 form text-center border-top mt-5 pt-4">
+              <div className="form-group">
+                <label htmlFor="title">Tytuł</label>
+                <select name="title" id="title" className="form-control">
+                  <option value="Pan">Pan</option>
+                  <option value="Pani">Pani</option>
+                </select>
+              </div>
+            </form>
           </div>
         </div>
       </div>
