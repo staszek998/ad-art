@@ -13,6 +13,11 @@
   z-index: 99;
   text-align: center;
   background-color: rgba($color: white, $alpha: 0.95);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 .lb-overlay div h3,
 .lb-overlay div p {
