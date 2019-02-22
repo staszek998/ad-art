@@ -2,11 +2,13 @@ import React from "react";
 
 import "./_Contact.scss";
 
+import adArtLogotype from "../../assets/images/ad-art-logotype.png";
+
 const Contact = () => (
   <main className="Contact">
     <div className="container">
       <div className="row py-5">
-        <div className="col-12">
+        <div className="col-12 text-center">
           {/* Heading */}
           <h1 className="display-3 display-md-1 mb-5 text-center">Kontakt</h1>
 
@@ -123,6 +125,15 @@ const Contact = () => (
                 className="art-button w-100"
               />
             </form>
+
+            {/* AD-art logotype */}
+            <div className="col-12 text-center">
+              <img
+                src={adArtLogotype}
+                className="my-5"
+                alt="Logotyp firmy AD-art"
+              />
+            </div>
           </div>
         </div>
       </div>
