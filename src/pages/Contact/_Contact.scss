@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import "../../scss/utilities/all";
+
+.Contact {
+  &__contact-details {
+    i {
+      font-size: 30px;
+    }
+  }
+
+  &__contact-form {
+    // Add space between the contact details
+    margin-top: 50px;
+
+    // Add space below the heading CTA
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    // Fix the missing hover action on submit button
+    input[type="submit"] {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    // Overrinde the Bootstrap's form styling
+    input:not([type="submit"]),
+    select,
+    textarea {
+      appearance: none;
+      border-radius: 0;
+      display: block;
+      border: 1px solid $ad-rich-black;
+      background: transparent;
+      color: $ad-rich-black;
+      text-decoration: none;
+      transition: all 200ms ease;
+
+      &:focus {
+        background: transparent;
+      }
+    }
+
+    input:not([type="submit"]) {
+      text-align: center;
+      padding: 10px;
+    }
+
+    select {
+      text-align-last: center;
+
+      &:focus {
+        border: 1px solid $ad-rich-black;
+      }
+
+      option {
+        background-color: $ad-white;
+      }
+    }
+
+    textarea {
+      resize: none;
+
+      &:focus {
+        border: 1px solid $ad-rich-black;
+      }
+    }
+  }
+}
