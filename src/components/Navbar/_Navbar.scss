@@ -23,6 +23,18 @@
 
   // Set the proper styling for the brand name
   .brand-name {
-    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+      height: 30px;
+      margin-right: 10px;
+      display: inline-block;
+    }
+
+    font-size: 2rem;
   }
 }

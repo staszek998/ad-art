@@ -3,11 +3,14 @@ import { NavLink } from "react-router-dom";
 
 import "./_Navbar.scss";
 
+import adArtLogotype from "../../assets/images/ad-art-logotype.png";
+
 const Navbar = () => (
   <nav className="Navbar navbar navbar-expand-sm">
     <div className="container align-items-baseline">
       {/* Company name */}
       <NavLink className="brand-name" to="/">
+        <img src={adArtLogotype} alt="Logotyp firmy AD-art" />
         AD-art
       </NavLink>
 
