@@ -20,8 +20,8 @@
       color: $ad-red;
     }
 
+    // Fixes for the mobile layout:
     @include media-breakpoint-down(md) {
-      // Center the text in the compact layout
       text-align: center;
 
       // Add more space between the elements
