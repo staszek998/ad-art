@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@import "../../scss/utilities/all";
+
+.Contact {
+  &__contact-details {
+    i {
+      font-size: 30px;
+    }
+  }
+}
