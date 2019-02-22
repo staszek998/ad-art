@@ -47,7 +47,10 @@ const Contact = () => (
             </div>
 
             {/* Contact form */}
-            <form className="col-12 col-md-8 col-lg-6 form text-center">
+            <form className="Contact__contact-form col-12 col-md-8 col-lg-6 form text-center">
+              {/* CTA */}
+              <h3>Napisz do nas</h3>
+
               {/* Title */}
               <div className="form-group">
                 <label htmlFor="title">Tytuł</label>

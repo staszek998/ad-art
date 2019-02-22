@@ -8,4 +8,14 @@
       font-size: 30px;
     }
   }
+
+  &__contact-form {
+    // Add space between the contact details
+    margin-top: 50px;
+
+    // Add space below the heading CTA
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
 }
