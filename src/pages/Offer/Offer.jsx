@@ -10,14 +10,45 @@ const Offer = () => (
 
           {/* Temporary icons tests */}
           <div className="row">
-            <div className="col-4">
-              <i className="icon-helmet" />
+            <div className="col-12 col-md-6 col-md-4 text-center border">
+              <i className="icon-blueprint" />
+              <h2 className="h6">
+                Profesjonalne wykonanie projektu z wizualizacją wnętrza
+              </h2>
             </div>
-            <div className="col-4">
-              <i className="icon-hammer" />
+            <div className="col-12 col-md-6 col-md-4 text-center border">
+              <i className="icon-paint-brush" />
+              <h2 className="h6">Dobór kolorystyki we wnętrzach</h2>
             </div>
-            <div className="col-4">
-              <i className="icon-lamp" />
+            <div className="col-12 col-md-6 col-md-4 text-center border">
+              <i className="icon-paint-brush" />
+              <h2 className="h6">
+                Dobór elementów wyposażenia
+                <br />
+                <small>(meble, tkaniny, tapety, oświetlenie, dekory)</small>
+              </h2>
+            </div>
+            <div className="col-12 col-md-6 col-md-4 text-center border">
+              <i className="icon-paint-brush" />
+              <h2 className="h6">
+                Pomoc w zakupie materiałów i elementów wykończeniowych
+              </h2>
+            </div>
+            <div className="col-12 col-md-6 col-md-4 text-center border">
+              <i className="icon-paint-brush" />
+              <h2 className="h6">Pomoc w wyborze firmy wykonawczej</h2>
+            </div>
+            <div className="col-12 col-md-6 col-md-4 text-center border">
+              <i className="icon-paint-brush" />
+              <h2 className="h6">
+                Nadzór nad projektem na wszystkich etapach jego realizacji
+              </h2>
+            </div>
+            <div className="col-12 col-md-6 col-md-4 text-center border">
+              <i className="icon-paint-brush" />
+              <h2 className="h6">
+                Współpracujemy z plastykami i konserwatorami mebli
+              </h2>
             </div>
           </div>
         </div>
