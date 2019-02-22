@@ -5,7 +5,7 @@ import "./_Offer.scss";
 const Offer = () => (
   <main className="Offer">
     <div className="container">
-      <div className="row py-5">
+      <div className="row">
         <div className="col-12">
           {/* Heading */}
           <h1 className="display-3 display-md-1 mb-5 text-center">Oferta</h1>
