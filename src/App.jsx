@@ -20,6 +20,7 @@ import Contact from "./pages/Contact/Contact";
 // Subpages
 import House from "./pages/Executions/House/House";
 import ExampleLivingRooms from "./pages/Projects/ExampleLivingRooms/ExampleLivingRooms";
+import ExampleLivingRoom from "./pages/Projects/ExampleLivingRooms/ExampleLivingRoom/ExampleLivingRoom";
 
 const App = () => (
   <div className="App">
@@ -39,6 +40,11 @@ const App = () => (
 
           {/* Projects subpages */}
           <Route exact path="/projekty/salony" component={ExampleLivingRooms} />
+          <Route
+            exact
+            path="/projekty/salony/przykładowy-salon"
+            component={ExampleLivingRoom}
+          />
         </Switch>
         <Footer />
       </div>
