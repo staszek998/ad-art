@@ -46,7 +46,7 @@ const Offer = () => (
                 Nadzór nad projektem na wszystkich etapach jego realizacji
               </h2>
             </div>
-            <div className="col-12 col-md-6 col-md-4 text-center py-4">
+            <div className="col-12 col-md-12 col-md-4 text-center py-4">
               <i className="icon-hammer" />
               <h2 className="h6 mt-2">
                 Współpracujemy z plastykami i konserwatorami mebli
