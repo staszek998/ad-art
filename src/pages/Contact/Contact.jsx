@@ -10,9 +10,9 @@ const Contact = () => (
           {/* Heading */}
           <h1 className="display-3 display-md-1 mb-5 text-center">Kontakt</h1>
 
-          <div className="row">
+          <div className="row justify-content-center">
             {/* Contact details */}
-            <div className="col-12 col-md-6 text-center Contact__contact-details">
+            <div className="col-12 col-lg-6 text-center Contact__contact-details">
               <p>
                 Działamy na terenie kraju, głównie: Zielona&nbsp;Góra
                 i&nbsp;miasta okoliczne.
@@ -47,7 +47,7 @@ const Contact = () => (
             </div>
 
             {/* Contact form */}
-            <form className="col-12 col-md-6 form text-center border-top mt-5 pt-4">
+            <form className="col-12 col-md-8 col-lg-6 form text-center mt-5 mt-md-0 pt-4 pt-md-0">
               {/* Title */}
               <div className="form-group">
                 <label htmlFor="title">Tytuł</label>
