@@ -47,7 +47,7 @@ const Contact = () => (
             </div>
 
             {/* Contact form */}
-            <form className="col-12 col-md-8 col-lg-6 form text-center mt-5 mt-md-0 pt-4 pt-md-0">
+            <form className="col-12 col-md-8 col-lg-6 form text-center">
               {/* Title */}
               <div className="form-group">
                 <label htmlFor="title">Tytuł</label>
