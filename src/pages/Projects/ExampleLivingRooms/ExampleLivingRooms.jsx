@@ -1,10 +1,10 @@
 import React from "react";
 import Thumbnail from "../../../components/Thumbnail/Thumbnail";
 
-import "./_ExampleProjects.scss";
+import "./_ExampleLivingRooms.scss";
 
-const ExampleProjects = () => (
-  <main className="ExampleProjects">
+const ExampleLivingRooms = () => (
+  <main className="ExampleLivingRooms">
     <div className="container">
       <div className="row">
         <div className="col-12">
@@ -70,4 +70,4 @@ const ExampleProjects = () => (
   </main>
 );
 
-export default ExampleProjects;
+export default ExampleLivingRooms;
