@@ -19,6 +19,21 @@
     a.active {
       color: $ad-red;
     }
+
+    @include media-breakpoint-down(md) {
+      // Center the text in the compact layout
+      text-align: center;
+
+      // Add more space between the elements
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      // Add more space above the first <li>
+      &:first-child {
+        margin-top: 10px;
+      }
+    }
   }
 
   // Set the proper styling for the brand name
