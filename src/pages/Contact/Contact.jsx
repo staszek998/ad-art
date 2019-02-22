@@ -31,7 +31,7 @@ const Contact = () => (
               </p>
 
               <div className="row">
-                <div className="col-12 text-center">
+                <div className="col-12 text-center d-flex flex-column align-items-center">
                   <a
                     className="d-block"
                     href="mailto:adart.zielonagora@gmail.com"
