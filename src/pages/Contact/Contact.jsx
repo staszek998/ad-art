@@ -12,7 +12,7 @@ const Contact = () => (
 
           <div className="row justify-content-center">
             {/* Contact details */}
-            <div className="col-12 col-lg-6 text-center Contact__contact-details">
+            <div className="col-12 text-center justify-content-center align-items-center Contact__contact-details">
               <p>
                 Działamy na terenie kraju, głównie: Zielona&nbsp;Góra
                 i&nbsp;miasta okoliczne.
@@ -47,7 +47,7 @@ const Contact = () => (
             </div>
 
             {/* Contact form */}
-            <form className="Contact__contact-form col-12 col-md-8 col-lg-6 form text-center">
+            <form className="Contact__contact-form col-12 col-md-8 col-lg-4 form text-center">
               {/* CTA */}
               <h3>Napisz do nas</h3>
 
@@ -112,7 +112,7 @@ const Contact = () => (
                   className="form-control"
                   id="message"
                   name="message"
-                  rows="15"
+                  rows="10"
                 />
               </div>
 
