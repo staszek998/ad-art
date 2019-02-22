@@ -1,12 +1,21 @@
 @charset "UTF-8";
 
-/* 1. Base (#base).
+/* 1. Vendor (#vendor).
+=================================================== */
+@import "./scss/vendor/hamburgers/hamburgers.scss";
+
+/* 2. Base (#base).
 ========================================== */
 @import "./scss/base/reset";
 @import "./scss/base/bootstrap";
 @import "./scss/base/base";
 @import "./scss/base/fonts";
 
-/* 2. Vendor (#vendor).
-=================================================== */
-@import "./scss/vendor/hamburgers/hamburgers.scss";
+/* 3. Utilities (#utilities).
+========================================== */
+@import "./scss/utilities/all";
+@import "./assets/icons/style.scss";
+
+/* 4. Components (#components).
+========================================== */
+@import "./scss/components/all";

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import "../../scss/utilities/all";
+
+.Navbar {
+  // Remove the Bootstrap's default styles for the links
+  a {
+    color: $ad-rich-black;
+    text-decoration: none;
+  }
+
+  .nav-item {
+    // Add mor e space between the links on large screens
+    @include media-breakpoint-up(lg) {
+      margin-left: 10px;
+    }
+
+    // Set the different colour for the active .nav-item to indicate the active page
+    a.active {
+      color: $ad-red;
+    }
+  }
+
+  // Set the proper styling for the brand name
+  .brand-name {
+    font-size: 2em;
+  }
+}

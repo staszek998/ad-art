@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+////
+/// This file contains the styles for the AD-art "Realizacje" (Executions) page.
+////
+
+@import "../../scss/utilities/all";
+
+.Executions {
+  // Center the content.
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  padding: 50px 0;
+  @include media-breakpoint-up(lg) {
+    padding: 100px 0;
+  }
+
+  // Create the CSS Grid layout.
+  .grid-container {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    @include media-breakpoint-up(lg) {
+      grid-template-columns: [main-start left-start] 1fr [left-end center-start] 2fr [center-end right-start] 1fr [right-end main-end];
+      grid-template-rows: [main-start top-start] auto [top-end bottom-start] auto [bottom-end main-end];
+    }
+    grid-gap: 20px;
+
+    .grid-item {
+      position: relative;
+
+      &::before {
+        position: relative;
+        padding-top: 100%;
+        content: "";
+        height: 0;
+        display: inline-block;
+        width: 1px;
+      }
+
+      .Thumbnail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 100%;
+      }
+
+      &--top-left {
+        grid-column: 1;
+        grid-row: 1;
+        @include media-breakpoint-up(lg) {
+          grid-column: left;
+          grid-row: top;
+        }
+      }
+
+      &--top-right {
+        grid-column: 2;
+        grid-row: 1;
+        @include media-breakpoint-up(lg) {
+          grid-column: right;
+          grid-row: top;
+        }
+      }
+
+      &--bottom-left {
+        grid-column: 1;
+        grid-row: 4;
+        @include media-breakpoint-up(lg) {
+          grid-column: left;
+          grid-row: bottom;
+        }
+      }
+
+      &--bottom-right {
+        grid-column: 2;
+        grid-row: 4;
+        @include media-breakpoint-up(lg) {
+          grid-column: right;
+          grid-row: bottom;
+        }
+      }
+
+      &--center {
+        grid-column: 1 / -1;
+        grid-row: 2 / 4;
+        @include media-breakpoint-up(lg) {
+          grid-column: center;
+          grid-row: main;
+        }
+      }
+    }
+  }
+}
