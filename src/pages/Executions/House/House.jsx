@@ -90,7 +90,8 @@ class House extends Component {
           <div className="row">
             <div className="col-12 py-5">
               {/* Heading */}
-              <h1 className="display-1 mb-5 text-center">Dom</h1>
+              <p className="mb-0 text-center">Realizacje</p>
+              <h1 className="display-1 mb-5 mt-0 text-center">Dom</h1>
 
               {/* Gallery */}
               <Gallery photos={examplePhotos} />
