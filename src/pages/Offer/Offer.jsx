@@ -10,7 +10,7 @@ const Offer = () => (
           {/* Heading */}
           <h1 className="display-3 display-md-1 mb-5 text-center">Oferta</h1>
 
-          {/* Temporary icons tests */}
+          {/* Offer items */}
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4 text-center py-4">
               <i className="icon-blueprint" />
