@@ -19,6 +19,7 @@ import Contact from "./pages/Contact/Contact";
 
 // Subpages
 import House from "./pages/Executions/House/House";
+import ExampleProjects from "./pages/Projects/ExampleProjects/ExampleProjects";
 
 const App = () => (
   <div className="App">
@@ -35,6 +36,9 @@ const App = () => (
 
           {/* Executions subpages */}
           <Route exact path="/realizacje/dom" component={House} />
+
+          {/* Projects subpages */}
+          <Route exact path="/projekty/salony" component={ExampleProjects} />
         </Switch>
         <Footer />
       </div>
