@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./_Offer.scss";
+
 const Offer = () => (
   <main className="Offer">
     <div className="container">
