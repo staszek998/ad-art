@@ -48,13 +48,77 @@ const Contact = () => (
 
             {/* Contact form */}
             <form className="col-12 col-md-6 form text-center border-top mt-5 pt-4">
+              {/* Title */}
               <div className="form-group">
                 <label htmlFor="title">Tytuł</label>
-                <select name="title" id="title" className="form-control">
+                <select
+                  required
+                  name="title"
+                  id="title"
+                  className="form-control"
+                  autoComplete="honorific-prefix"
+                >
                   <option value="Pan">Pan</option>
                   <option value="Pani">Pani</option>
                 </select>
               </div>
+
+              {/* First name */}
+              <div className="form-group">
+                <label htmlFor="name--first">Imię</label>
+                <input
+                  id="name--first"
+                  name="name--first"
+                  required
+                  type="text"
+                  className="form-control"
+                  autoComplete="given-name"
+                />
+              </div>
+
+              {/* Last name */}
+              <div className="form-group">
+                <label htmlFor="name--last">Nazwisko</label>
+                <input
+                  id="name--last"
+                  name="name--last"
+                  required
+                  type="text"
+                  className="form-control"
+                  autoComplete="family-name"
+                />
+              </div>
+
+              {/* Phone number */}
+              <div className="form-group">
+                <label htmlFor="tel">Telefon kontaktowy</label>
+                <input
+                  required
+                  type="tel"
+                  autoComplete="tel"
+                  id="tel"
+                  name="tel"
+                  className="form-control"
+                />
+              </div>
+
+              {/* Message */}
+              <div className="form-group">
+                <label htmlFor="message">Treść wiadomości</label>
+                <textarea
+                  className="form-control"
+                  id="message"
+                  name="message"
+                  rows="15"
+                />
+              </div>
+
+              {/* Submit button */}
+              <input
+                type="submit"
+                value="WYŚLIJ"
+                className="art-button mx-auto w-100 w-lg-auto"
+              />
             </form>
           </div>
         </div>
