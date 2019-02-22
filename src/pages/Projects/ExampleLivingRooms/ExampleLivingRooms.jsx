@@ -9,7 +9,7 @@ const ExampleLivingRooms = () => (
       <div className="row">
         <div className="col-12">
           {/* Heading */}
-          <p className="lead text-center mb-0">Projekty</p>
+          <p className="text-center mb-0">Projekty</p>
           <h1 className="display-3 display-md-1 mb-5 text-center">Salony</h1>
 
           {/* Cards */}
