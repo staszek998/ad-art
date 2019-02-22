@@ -7,9 +7,9 @@ const examplePhotos = [
     description: "Photo description",
     src: {
       thumb:
-        "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b94100b88251b7b9689ce9b/1536430102320/01.jpg?format=1500w",
       full:
-        "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b94100b88251b7b9689ce9b/1536430102320/01.jpg?format=1500w"
     },
     alt: "Photo alt text"
   },
@@ -18,9 +18,9 @@ const examplePhotos = [
     description: "Photo description",
     src: {
       thumb:
-        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b94106740ec9a30c74489a1/1536430197524/02.jpg?format=1500w",
       full:
-        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b94106740ec9a30c74489a1/1536430197524/02.jpg?format=1500w"
     },
     alt: "Photo alt text"
   },
@@ -29,9 +29,9 @@ const examplePhotos = [
     description: "Photo description",
     src: {
       thumb:
-        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b9410e12b6a28d4f72dc3f6/1536430373683/03.jpg?format=1500w",
       full:
-        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b9410e12b6a28d4f72dc3f6/1536430373683/03.jpg?format=1500w"
     },
     alt: "Photo alt text"
   },
@@ -40,9 +40,9 @@ const examplePhotos = [
     description: "Photo description",
     src: {
       thumb:
-        "https://images.unsplash.com/photo-1542290504-2dc9a5811cd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b941130c2241b07790ca359/1536430444659/04.jpg?format=1500w",
       full:
-        "https://images.unsplash.com/photo-1542290504-2dc9a5811cd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        "https://static1.squarespace.com/static/5b93e7f596e76fc3f7a8a12d/t/5b941130c2241b07790ca359/1536430444659/04.jpg?format=1500w"
     },
     alt: "Photo alt text"
   },
@@ -51,9 +51,9 @@ const examplePhotos = [
     description: "Photo description",
     src: {
       thumb:
-        "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80",
+        "https://cdnb.artstation.com/p/assets/images/images/011/732/007/large/jaka-kosec-mozno4-1.jpg?1531129471",
       full:
-        "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80"
+        "https://cdnb.artstation.com/p/assets/images/images/011/732/007/large/jaka-kosec-mozno4-1.jpg?1531129471"
     },
     alt: "Photo alt text"
   },
@@ -62,9 +62,9 @@ const examplePhotos = [
     description: "Photo description",
     src: {
       thumb:
-        "https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        "https://cdna.artstation.com/p/assets/images/images/011/732/010/large/jaka-kosec-mozno6-1.jpg?1531129485",
       full:
-        "https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+        "https://cdna.artstation.com/p/assets/images/images/011/732/010/large/jaka-kosec-mozno6-1.jpg?1531129485"
     },
     alt: "Photo alt text"
   },
@@ -73,9 +73,9 @@ const examplePhotos = [
     description: "Photo description",
     src: {
       thumb:
-        "https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        "https://cdna.artstation.com/p/assets/images/images/011/732/008/large/jaka-kosec-mozno5-1.jpg?1531129483",
       full:
-        "https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+        "https://cdna.artstation.com/p/assets/images/images/011/732/008/large/jaka-kosec-mozno5-1.jpg?1531129483"
     },
     alt: "Photo alt text"
   }
@@ -91,7 +91,7 @@ class ExampleLivingRoom extends Component {
             <div className="col-12 py-5">
               {/* Heading */}
               <p className="mb-0 text-center">Projekty / Salony</p>
-              <h1 className="display-1 mb-5 mt-0 text-center">Salon 1</h1>
+              <h1 className="display-3 display-md-1 mb-5 mt-0 text-center">Salon 1</h1>
 
               {/* Gallery */}
               <Gallery photos={examplePhotos} />
