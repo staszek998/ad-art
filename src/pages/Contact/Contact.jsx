@@ -120,7 +120,7 @@ const Contact = () => (
               <input
                 type="submit"
                 value="WYŚLIJ"
-                className="art-button mx-auto w-100 w-lg-auto"
+                className="art-button w-100"
               />
             </form>
           </div>
