@@ -6,17 +6,25 @@ body,
 #root,
 .App,
 .App > div {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .App > div {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: min-content auto min-content;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content auto min-content;
 }
 
 body {
-    background-color: $ad-white;
-    color: $ad-rich-black;
-    @include ad-font--regular;
+  background-color: $ad-white;
+  color: $ad-rich-black;
+  @include ad-font--regular;
+
+  main {
+    padding-top: 50px;
+
+    @include media-breakpoint-up(md) {
+      padding-top: 100px;
+    }
+  }
 }
