@@ -10,10 +10,8 @@
   }
 
   &__contact-form {
-    // Add space between the contact details (on screens < lg)
-    @include media-breakpoint-down(lg) {
-      margin-top: 50px;
-    }
+    // Add space between the contact details
+    margin-top: 50px;
 
     // Add space below the heading CTA
     h3 {
