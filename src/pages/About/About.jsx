@@ -8,7 +8,7 @@ const About = () => (
       <div className="row">
         <div className="col-12 text-center">
           {/* Heading */}
-          <h1 className="display-1 mb-5">O nas</h1>
+          <h1 className="display-3 display-md-1 mb-5">O nas</h1>
 
           {/* Copy text */}
           <p>
