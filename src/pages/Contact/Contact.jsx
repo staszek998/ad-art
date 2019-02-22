@@ -7,7 +7,7 @@ import adArtLogotype from "../../assets/images/ad-art-logotype.png";
 const Contact = () => (
   <main className="Contact">
     <div className="container">
-      <div className="row py-5">
+      <div className="row">
         <div className="col-12 text-center">
           {/* Heading */}
           <h1 className="display-3 display-md-1 mb-5 text-center">Kontakt</h1>
