@@ -6,8 +6,8 @@ import "./_Home.scss";
 const Home = () => (
   <main className="Home">
     {/* Heading / intro */}
-    <h1 className="display-1 text-center">AD-art</h1>
-    <h2 className="text-center">Projektujemy Twoją przestrzeń</h2>
+    <h1 className="display-3 display-md-1 text-center">AD-art</h1>
+    <h2 className="h5 text-center">Projektujemy Twoją przestrzeń</h2>
 
     {/* Links */}
     <div className="links">
