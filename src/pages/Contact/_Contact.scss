@@ -68,4 +68,12 @@
       }
     }
   }
+
+  // Remove the underline hover effect from links
+  a {
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
 }
