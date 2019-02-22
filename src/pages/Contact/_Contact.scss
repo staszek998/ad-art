@@ -17,5 +17,12 @@
     h3 {
       margin-bottom: 20px;
     }
+
+    // Fix the missing hover action on submit button
+    input[type="submit"] {
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
