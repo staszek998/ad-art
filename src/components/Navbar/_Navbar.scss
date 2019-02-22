@@ -57,7 +57,7 @@
   @include media-breakpoint-down(md) {
     transition: box-shadow 300ms ease;
     &.expanded {
-      box-shadow: 0 4px 2px -2px gray;
+      box-shadow: 0 10px 30px 0px gray;
     }
   }
 }
