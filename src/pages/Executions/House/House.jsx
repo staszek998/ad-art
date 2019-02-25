@@ -88,7 +88,7 @@ class House extends Component {
       <main className="Execution Execution--House">
         <div className="container">
           <div className="row">
-            <div className="col-12 py-5">
+            <div className="col-12">
               {/* Heading */}
               <p className="mb-0 text-center">Realizacje</p>
               <h1 className="display-1 mb-5 mt-0 text-center">Dom</h1>

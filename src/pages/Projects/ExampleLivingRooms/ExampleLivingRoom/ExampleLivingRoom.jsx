@@ -88,7 +88,7 @@ class ExampleLivingRoom extends Component {
       <main className="Project Project--ExampleLivingRoom">
         <div className="container">
           <div className="row">
-            <div className="col-12 py-5">
+            <div className="col-12">
               {/* Heading */}
               <p className="mb-0 text-center">Projekty / Salony</p>
               <h1 className="display-3 display-md-1 mb-5 mt-0 text-center">Salon 1</h1>
